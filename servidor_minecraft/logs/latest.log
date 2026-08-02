@@ -1,0 +1,68 @@
+[02Aug2026 00:38:11.722] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.21, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Aug2026 00:38:11.725] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[02Aug2026 00:38:12.265] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Aug2026 00:38:12.324] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/meow/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Aug2026 00:38:12.564] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/meow/servidor_minecraft/mods} returned 2 files which are client-side-only mods, but we're on a dedicated server. They will be skipped!
+[02Aug2026 00:38:12.754] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/meow/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.21/fmlcore-1.20.1-47.4.21.jar is missing mods.toml file
+[02Aug2026 00:38:12.757] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/meow/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.21/javafmllanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[02Aug2026 00:38:12.759] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/meow/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.21/lowcodelanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[02Aug2026 00:38:12.760] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/meow/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.21/mclanguage-1.20.1-47.4.21.jar is missing mods.toml file
+[02Aug2026 00:38:13.241] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 19 dependencies adding them to mods collection
+[02Aug2026 00:38:16.178] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Aug2026 00:38:16.453] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[02Aug2026 00:38:16.454] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Aug2026 00:38:16.694] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.66+mc1.20.1: 110 options available, 0 override(s) found
+[02Aug2026 00:38:16.695] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[02Aug2026 00:38:16.715] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[02Aug2026 00:38:16.884] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 100 options available, 3 override(s) found
+[02Aug2026 00:38:17.201] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 35 options available, 0 override(s) found
+[02Aug2026 00:38:17.205] [main/WARN] [mixin/]: Reference map 'mixins.kimetsunoyaiba.refmap.json' for mixins.kimetsunoyaiba.json could not be read. If this is a development environment you can ignore this message
+[02Aug2026 00:38:18.204] [main/WARN] [mixin/]: Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev.tr7zw.skinlayers.render.CustomizableModelPart)
+[02Aug2026 00:38:19.026] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/Sheets for invalid dist DEDICATED_SERVER
+[02Aug2026 00:38:19.027] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/Sheets (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/Sheets for invalid dist DEDICATED_SERVER)
+[02Aug2026 00:38:19.027] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.Sheets was not found shouldersurfing.forge.compat.mixins.json:iris.SheetsMixin_1_7_0
+[02Aug2026 00:38:19.060] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02Aug2026 00:38:19.516] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[02Aug2026 00:38:19.519] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:32)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[02Aug2026 00:38:19.520] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1077]: 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: Caused by: java.lang.reflect.InvocationTargetException
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+[02Aug2026 00:38:19.522] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.21/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111)
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.21/net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103)
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.21/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27)
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1086]: 	... 7 more
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: Caused by: java.lang.ExceptionInInitializerError
+[02Aug2026 00:38:19.523] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.chat.MutableComponent.m_237204_(MutableComponent.java:29)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.chat.Component.m_237115_(Component.java:444)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.commands.BrigadierExceptions.<clinit>(BrigadierExceptions.java:24)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.SharedConstants.<clinit>(SharedConstants.java:216)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.Main.main(Main.java:69)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:659]: 	... 15 more
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at MC-BOOTSTRAP/fmlloader@1.20.1-47.4.21/net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:56)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88)
+[02Aug2026 00:38:19.524] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[02Aug2026 00:38:19.525] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[02Aug2026 00:38:19.526] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+[02Aug2026 00:38:19.526] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.handler$zin000$etf$illegalPathOverride(ResourceLocation.java:525)
+[02Aug2026 00:38:19.526] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.m_135841_(ResourceLocation.java:206)
+[02Aug2026 00:38:19.526] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.m_245185_(ResourceLocation.java:241)
+[02Aug2026 00:38:19.527] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40)
+[02Aug2026 00:38:19.527] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.network.chat.Style.<clinit>(Style.java:39)
+[02Aug2026 00:38:19.527] [main/INFO] [STDERR/]: [java.lang.Throwable:printStackTrace:682]: 	... 20 more
